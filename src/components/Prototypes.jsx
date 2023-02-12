@@ -34,7 +34,7 @@ export default function Prototypes() {
                         </a>
                         <div className ="prototype__body">
             <               div className ="prototype__title">
-                                <div className ="btn btn--primary float--right">
+                                <div className ="btn btn--primary float--right" onClick ={click}>
                                     <i className="icon icon--plus" />
                                 </div>
                                 {title}
